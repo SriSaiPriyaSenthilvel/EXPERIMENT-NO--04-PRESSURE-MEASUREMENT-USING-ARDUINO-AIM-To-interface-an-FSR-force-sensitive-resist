@@ -1,4 +1,4 @@
-# EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resistor
+# EXPERIMENT NO 03   PRESSURE MEASUREMENT USING ARDUINO AIM To interface an FSR force sensitive resistor
 
 
 ## AIM: 
@@ -100,15 +100,19 @@ if(m>5)
 }
 }
 ```
- 
-![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
-
-
 ### TABLE -02 standard deviation table 
+
+![image](https://github.com/SriSaiPriyaSenthilvel/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/119475702/fa3d9840-87b9-401b-84af-80c999fbd106)
+
+### OUTPUT:
+
+![intro to robo exp3 pic](https://github.com/SriSaiPriyaSenthilvel/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/119475702/a81cfac5-9581-4662-b86a-33da2378eef7)
+
+![Screenshot (139)](https://github.com/SriSaiPriyaSenthilvel/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/119475702/83e3e9c1-8612-483a-b507-f4386b94ff67)
+
+
 ### Population Standard Deviation
 The population standard deviation, the standard definition of σ, is used when an entire population can be measured, and is the square root of the variance of a given data set. In cases where every member of a population can be sampled, the following equation can be used to find the standard deviation of the entire population:
-
-
 
 Where
 xi is an individual value
@@ -117,22 +121,7 @@ N is the total number of values
 
 For those unfamiliar with summation notation, the equation above may seem daunting, but when addressed through its individual components, this summation is not particularly complicated. The i=1 in the summation indicates the starting index, i.e. for the data set 1, 3, 4, 7, 8, i=1 would be 1, i=2 would be 3, and so on. Hence the summation notation simply means to perform the operation of (xi - μ)2 on each value through N, which in this case is 5 since there are 5 values in this data set.
 
-EX:           μ = (1+3+4+7+8) / 5 = 4.6        
-σ = √[(1 - 4.6)2 + (3 - 4.6)2 + ... + (8 - 4.6)2)]/5
-σ = √(12.96 + 2.56 + 0.36 + 5.76 + 11.56)/5 = 2.577
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+EX: μ = (2+3+4+5+6+7+8+8+9+10) / 10 = 6.2
+σ = √(2-6.2)=17.64 
+σ = √63.6 = 0.79
 ### RESULTS : Arduino uno is interfaced with FSR and output values are indicated on a graph.
